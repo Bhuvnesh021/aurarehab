@@ -1,37 +1,207 @@
-/* body{
-
-} */
-
-.navbar-nav
-{
-    margin-left: auto !important;
+body {
+  font-family: "Cabin", Georgia, serif !important;
+  width: 100%;
 }
+
+.mainlogo {
+  height: 75px;
+  width: 75px;
+}
+
+.offer {
+  background-color: #37c3e6;
+  text-decoration: solid;
+  color: #fff;
+  font-size: 25px;
+}
+
+.navbar-nav {
+  margin-left: auto !important;
+  text-decoration: #000 solid;
+}
+
+.logo {
+    border-radius: 50%;
+    height: 180px;
+    position: absolute;
+    top: -2%;
+    left: 52%;
+    z-index: 100;
+    margin-top: -50px;
+  }
 
 /* Home */
-.home
-{
-    text-align: center;
-    background-color: #000;
-    color: #fff;
-    margin-top: 100px;
-    position: relative;
+#home {
+  background-color: #000;
+  color: #fff;
+  padding-left: 0px !important;
+  position: relative;
 }
 
-.slider
-{
-    padding: 0px;
-    margin-left: -15px !important;
-    margin-right: -15px !important;
+/* .slider {
+  padding: 0px;
+} */
+/* 
+.headline {
+  font-size: 42px !important;
 }
 
-.headline
-{
-    display: flex;
-    justify-content: center;
+.headline1 {
+  padding: 25px 0px 100px 0px;
+} */
+/* #home img {
+  width: 100%;
+} */
+
+/* #home h3 {
+  position: absolute;
+  z-index: 100;
+  margin-top: -50px;
+  top: 15%;
+  right: 10%;
+  color: black;
 }
 
-button{
-    background-color: #37C3E6;
+#home h4 {
+  position: absolute;
+  z-index: 100;
+  margin-top: -50px;
+  top: 11%;
+  right: 11%;
+  color: black;
+} */
+
+#home button {
+  background-color: #37c3e6;
+  border: none;
+  border-radius: 60px !important;
+  font-size: 20px !important;
+  color: #000;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px !important;
+  cursor: pointer;
+}
+
+/* About Us */
+#aboutus {
+  text-align: center;
+  padding: 30px 0px 30px 0px;
+  font-family: "Bitter", serif;
+}
+#aboutus h3 {
+  text-align: center;
+  margin: auto;
+  color: #37c3e6;
+  text-decoration: solid;
+  padding: 30px 0px 30px 0px;
+  font-weight: 800 !important;
+  font-size: 45px;
+}
+
+#aboutus p {
+  font-size: 20px;
+}
+
+/* Why Choose Us */
+#whychooseus {
+  background-color: #37c3e6;
+  text-align: center;
+  padding: 30px 0px 30px 0px;
+  font-family: "Bitter", serif;
+}
+
+#whychooseus h3 {
+  margin: auto;
+  text-decoration: solid;
+  padding: 30px 0px 30px 0px;
+  font-weight: 800 !important;
+  font-size: 45px;
+}
+
+#whychooseus h4 {
+  font-size: 25px;
+}
+#whychooseus img {
+  height: 200px;
+  width: 200px;
+}
+
+#whychooseus p {
+  font-size: 18px;
+}
+
+/* Our Team */
+#ourteam {
+  text-align: center;
+  padding: 30px 0px 30px 0px;
+  font-family: "Bitter", serif;
+}
+#ourteam h3 {
+  text-align: center;
+  margin: auto;
+  color: #37c3e6;
+  text-decoration: solid;
+  padding: 30px 0px 30px 0px;
+  font-weight: 800 !important;
+  font-size: 45px;
+}
+
+#ourteam p{
+    font-size: 20px;
+}
+
+/* Reviews */
+#reviews {
+  background-color: #37c3e6;
+  text-align: center;
+  padding: 30px 0px 30px 0px;
+  font-family: "Bitter", serif;
+}
+
+#review h3 {
+  margin: auto;
+  text-decoration: solid;
+  padding: 30px 0px 30px 0px;
+  font-weight: 800 !important;
+  font-size: 45px;
+}
+
+/* Social Media */
+#socialmedia {
+  text-align: center;
+  padding: 30px 0px 30px 0px;
+  font-family: "Bitter", serif;
+}
+#socialmedia h3 {
+  text-align: center;
+  margin: auto;
+  color: #37c3e6;
+  text-decoration: solid;
+  padding: 30px 0px 30px 0px;
+  font-weight: 800 !important;
+  font-size: 45px;
+}
+/* Contact Us */
+#contactus {
+  text-align: center;
+  padding: 30px 0px 30px 0px;
+  font-family: "Bitter", serif;
+}
+#contactus h3 {
+  text-align: center;
+  margin: auto;
+  color: #37c3e6;
+  text-decoration: solid;
+  padding: 30px 0px 30px 0px;
+  font-weight: 800 !important;
+  font-size: 45px;
+}
+
+#contactus button {
+    background-color: #37c3e6;
     border: none;
     border-radius: 60px !important;
     font-size: 20px !important;
@@ -42,17 +212,21 @@ button{
     display: inline-block;
     margin: 4px 2px !important;
     cursor: pointer;
-}
-
-.logo {
-    border-radius: 50%;
-    height: 180px;
-    position: absolute;
-    top: -2%;
-    left: 52%;
-    z-index: 100;
   }
-/* About Us */
-/* Services */
-/* Reviews */
-/* Contact Us */
+
+  #contactus iframe{
+    width: 100%;
+    height: 450px;
+    border: none;
+    margin-bottom: -35px;
+  }
+
+#footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 65px;
+  font-size: 15px;
+  font-family: "Cabin", Georgia, serif;
+  margin: 0;
+}

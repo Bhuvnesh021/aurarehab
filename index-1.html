@@ -8,13 +8,24 @@
   />
   <title>Aura Physiotherapy and Rehabilitation</title>
 
-  <link rel="icon" type="image/png" href="/images/favicon.png" />
-  <link rel="stylesheet" href="../aurarehab/css/styles.css" />
-  <link rel="stylesheet" href="../aurarehab/css/bootstrap.min.css" />
-
+  <link rel="icon" type="image/png" href="images/favicon.png" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/fontawesome.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
   <body>
+    <marquee class="offer"
+      >First Online Consultation free!!! After that get 20% off.</marquee
+    >
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Aura Physiotherapy and Rehabilitation</a>
+      <a class="navbar-brand" href="#"
+        ><img class="mainlogo" src="images/circle.png" alt="logo" /><b
+          >Aura</b
+        ></a
+      >
       <button
         class="navbar-toggler"
         type="button"
@@ -28,17 +39,25 @@
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
+        <ul class="navbar-nav ms-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#"
+            <a class="nav-link" href="#home"
               >Home<span class="sr-only">(current)</span></a
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Our Team</a>
+            <a class="nav-link" href="#aboutus">About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Reviews</a>
+            <a class="nav-link" href="#whychooseus">Why Choose Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Services/OnlineServices.html"
+              >Online Services</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#ourteam">Our Team</a>
           </li>
           <li class="nav-item dropdown">
             <a
@@ -53,21 +72,30 @@
               Our Services
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Pediatric Rehabilitation</a>
-              <a class="dropdown-item" href="#">Neurorehabilitation</a>
-              <a class="dropdown-item" href="#">Orthopedic Rehabilitation</a>
-              <a class="dropdown-item" href="#">Geriatric Rehabilitation</a>
+              <a class="dropdown-item" href="Services/Pediatric.html"
+                >Pediatric Rehabilitation</a
+              >
+              <a class="dropdown-item" href="Services/Neuro.html"
+                >Neurorehabilitation</a
+              >
+              <a class="dropdown-item" href="Services/Orthopedic.html"
+                >Orthopedic Rehabilitation</a
+              >
+              <a class="dropdown-item" href="Services/Geriatric.html"
+                >Geriatric Rehabilitation</a
+              >
               <a class="dropdown-item" href="#">Other Services</a>
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About Us</a>
+            <a class="nav-link" href="#contactus">Contact Us</a>
           </li>
         </ul>
       </div>
     </nav>
-    <div class="container-fluid home">
-      <img class="logo" src="images/circle.png" alt="Logo"/>
+
+    <!-- Home -->
+    <div class="container-fluid" id="home">
       <div class="row">
         <div class="col-md-7 slider">
           <div
@@ -77,43 +105,202 @@
           >
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img
-                  class="d-block w-100"
-                  src="images/Header_slider.jpg"
-                  alt="First slide"
-                />
+                <img src="images/Header_slider.jpg" alt="First slide" />
               </div>
               <div class="carousel-item">
-                <img
-                  class="d-block w-100"
-                  src="images/Header_slider.jpg"
-                  alt="Second slide"
-                />
+                <img src="images/Header_slider.jpg" alt="Second slide" />
               </div>
               <div class="carousel-item">
-                <img
-                  class="d-block w-100"
-                  src="images/Header_slider.jpg"
-                  alt="Third slide"
-                />
+                <img src="images/Header_slider.jpg" alt="Third slide" />
               </div>
             </div>
           </div>
         </div>
-        <div class="col-md-5">
-          <h3 class="display-3 headline">Let Your Health Shine</h3>
-          <h4>Get Started with recovering</h4>
+        <div class="col-md-5 mx-auto">
+          <h3><b>Let Your Health Shine</b></h3>
+          <h4 class="headline1">Get Started with recovering</h4>
           <button>Book Online</button>
+          <h5>Appointments: +91-9413988250</h5>
         </div>
       </div>
     </div>
 
+    <!-- About Us Section -->
+    <div class="container" id="aboutus">
+      <h3>About Us</h3>
+      <div class="row">
+        <div class="col-md-4">
+          <h4>Our Mission</h4>
+          <p>
+            To provide a combined and coordinated use of therapeutic exercise
+            and the latest equipment to achieve the highest possible level of
+            function of a person physically, psychologically, and socially.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <h4>Our Vision</h4>
+          <p>
+            A World where every person recognizes the value of physiotherapy and
+            has access to the best quality and advanced physiotherapy care and
+            services.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <h4>Our Goal</h4>
+          <p>
+            To provide a meaningful change to the quality of life by reducing
+            activity limitation and participation restriction and maximizing
+            patient acceptability to quality treatment,
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Why Choose Us -->
+    <div class="container-fluid" id="whychooseus">
+      <h3>Why Choose Us?</h3>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h4>Expert Physiotherapy</h4>
+            <img src="images/Why Choose us-01.png" alt="Expert Physiotherapy" />
+            <p>
+              We have a team of well skilled physiotherapists from multiple
+              disciplines to ensure fast recovery and continually seek out
+              professional development.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <h4>No Medications</h4>
+            <img src="images/Why Choose us-02.png" alt="No Medications" />
+            <p>
+              We provide hands-on rehabilitation and functional therapeutic
+              exercises along with electrotherapeutic modalities. This makes
+              patients able to decrease or eliminate the need for medications.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <h4>Latest Equipment</h4>
+            <img src="images/Why Choose us-03.png" alt="Latest Equipment" />
+            <p>
+              Our clinic is well equipped with the best uality infrastructure,
+              the latest equipment and ample space to provide quality treatment.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <h4>Personalize Care</h4>
+            <img src="images/Why Choose us-04.png" alt="Personalize Care" />
+            <p>
+              In addition to addressing your symptoms, we want to find the
+              source of your pain to offer a long-term solution to your issue
+              and to promote your self healing capacity.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <h4>Improved Level of Function</h4>
+            <img
+              src="images/Why Choose us-05.png"
+              alt="Improved Level of Function"
+            />
+            <p>
+              To provide pain free movement and the ability to function as
+              quickly and as safely as possible.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <h4>Hope</h4>
+            <img src="images/Why Choose us-10.png" alt="Hope" />
+            <p>
+              Every patient of us is treated like a family with the primary
+              focus of transforming them into the best version they could ever
+              hope to be.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Our Team -->
+    <div class="container-fluid" id="ourteam">
+      <h3>Our Team</h3>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <img
+              class="rounded"
+              src="images/Deepak.jpg"
+              alt="Doctor"
+              height="200"
+              width="200"
+            />
+            <p>Dr. Deepak Jain</p>
+            <p>Consultant Physiotherapists & Founder</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Review -->
+    <div class="container-fluid" id="reviews">
+      <h3>Reviews</h3>
+      <i class="fa fa-facebook-official" aria-hidden="true"></i>
+    </div>
+    <!-- Contact Us -->
+    <div class="container-fluid" id="contactus">
+      <h3>Contact Us</h3>
+      <h4>The personalized care you deserve</h4>
+      <h5>
+        Please contact us directly with any questions, comments, or scheduling
+        inquiries you may have.
+      </h5>
+      <h5>
+        Feel free to mail any documents to
+        <a href="mailto: physiotheraphybijoliya@gmail.com"
+          >physiotheraphybijoliya@gmail.com</a
+        >
+      </h5>
+      <button>Message us on WhatsApp</button>
+      <p>Aura Physiotherapy and Rehabilitation Centre</p>
+      <p>
+        Visit us: Aura Physiotherapy and Rehabilitation Center, behind Bank of
+        Baroda, Bijolia, Rajasthan, India
+      </p>
+      <p>+919413988250 / physiotheraphybijoliya@gmail.com</p>
+      <p>Hours</p>
+      <p>Monday - Saturday: 9am - 2pm & 3pm - 6pm Sunday: Closed</p>
+      <button>Drop Us a Line!</button>
+      <br />
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14445.041600016484!2d75.320442!3d25.1606838!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396f43cf3fa076bf%3A0x604acde6ec407eea!2sAura%20Physiotherapy%20and%20Rehabilitation%20Center!5e0!3m2!1sen!2sin!4v1677942661764!5m2!1sen!2sin"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="../aurarehab/js/bootstrap.min.js"></script>
-    <script src="../aurarehab/js/jquery-3.6.3.min.js"></script>
-    <script src="../aurarehab/js/script.js"></script>
+    <div id="footer">
+      <h4>Aura Physiotherapy & Rehabilitation</h4>
+      <h4>In front of HVS English Medium Public School, Bundi Road Bijoliya</h4>
+      <p>919413988250</p>
+      <p>
+        Copyright © 2022 Physiotherapy and Rehabilitation Centre - All Rights
+        Reserved
+      </p>
+      <i class="fa-brands fa-facebook"></i>
+      <a href="#" class="fa fa-instagram"></a>
+    </div>
     <script
+      src="../aurarehab/js/bootstrap.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="../aurarehab/js/jquery-3.6.3.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../aurarehab/js/script.js" crossorigin="anonymous"></script>
+    <!-- <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
       crossorigin="anonymous"
@@ -122,11 +309,11 @@
       src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
       integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
       crossorigin="anonymous"
-    ></script>
-    <script
+    ></script> -->
+    <!-- <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
       integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
       crossorigin="anonymous"
-    ></script>
+    ></script>  -->
   </body>
 </html>
